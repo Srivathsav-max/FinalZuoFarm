@@ -6,7 +6,7 @@ import org.springframework.web.client.RestTemplate;
 import org.h2.security.auth.H2AuthConfig;
 
 public class ReCapthaV3Handle {
-    private String recaptchaSecretKey = "6LexEuQdAAAAAHck9RroEK6Uvi9Vb3UerADu0xFe" ;
+    private String recaptchaSecretKey = "6LeaXeQdAAAAALxxP06hoMFXjgDwqPMz35FWOljz" ;
     private String recaptchaServerURL = "https://www.google.com/recaptcha/api/siteverify" ;
 
     public float verify(String recaptchaFormResponse) throws InvalidCaptchaTokenException {
